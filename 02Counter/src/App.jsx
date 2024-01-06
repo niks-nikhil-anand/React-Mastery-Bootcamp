@@ -7,14 +7,18 @@ function App() {
   
 // let value = 5 
 
-let [value , setvalue] = useState(50)
+let [value , setvalue] = useState(15)
 
 const addvalue = ()=>{
-  value++;
+  if(value<20){
+    value++;
+  }
   setvalue(value)
 }
 const minusvalue = ()=>{
-  value--;
+  if(value>0){
+    value--;
+  }
   setvalue(value)
 }
 
