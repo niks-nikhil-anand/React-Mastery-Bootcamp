@@ -1,10 +1,10 @@
-
+import React from "react"
 
 function App() {
-  
+  const name = "Nikhil Anand"
 
   return (
-    <h1 className="bold text-8xl">hello nikhil tailwind added</h1>
+    <h1 className="bold text-2xl flex">hello {name} , Tailwind added</h1>
   )
 }
 
