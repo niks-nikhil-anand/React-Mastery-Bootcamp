@@ -12,6 +12,7 @@ let [value , setvalue] = useState(15)
 const addvalue = ()=>{
   if(value<20){
     value++;
+    
   }
   setvalue(value)
 }
