@@ -35,6 +35,8 @@ function App() {
   useEffect(()=>{
     passwordGenerator()
   } , [length , numberAllowed , charAllowed ,passwordGenerator ])
+
+
   // use Ref Hook
   const passwordRef = useRef(null)
   return (

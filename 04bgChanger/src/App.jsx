@@ -54,7 +54,7 @@ const App = () => {
         Brown</button>
        <button className='outline-none py-2 px-3.5 rounded-full mt-3 mb-3 ' 
        onClick={() => setcolor("olive")}
-       style = {{backgroundColor: 'olive'}}>
+       style = {{backgroundColor: 'olive'}}> 
         Olive</button>
       
       </div>
