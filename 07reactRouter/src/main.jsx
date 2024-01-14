@@ -1,10 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Layout from './Layout.jsx'
-import {Home , About , Contact , User} from './components'
+import {Home , About , Contact , User , Github , githubInfoLoader } from './components'
 import { Route } from 'react-router-dom'
 
 
@@ -35,8 +34,12 @@ const router = createBrowserRouter(
     <Route path = "/" element = {<Layout/>} >
       <Route path = "" element = {<Home/>} />
       <Route path = "about" element = {<About/>} />
-      <Route path = "conatct" element = {<Contact/>} />
+      <Route path = "contact" element = {<Contact/>} />
       <Route path = "user/:id" element = {<User/>} />
+      <Route 
+     loader={githubInfoLoader}
+      path = "github" 
+      element = {<Github/>} />
     </Route>
   )
 )
