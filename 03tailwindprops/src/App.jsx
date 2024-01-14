@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import  Card  from './components/card'
 
@@ -18,8 +16,8 @@ function App() {
     <>
       <h1 className='bg-red-400 text-black p-4 rounded-xl mb-10 '>Tailwind and Props</h1>
      
-    <Card username = "Nikhil"/>
-    <Card username = "Anand"/>
+    <Card username = "Nikhil" btnText = "click me"/>
+    <Card username = "Anand" />
     </>
   )
 }

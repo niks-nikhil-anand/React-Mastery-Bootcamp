@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import App from './App'
 
 
 
@@ -19,7 +18,10 @@ const anotherElement = (
     Go to google
     </a>
 )
+
+
 const name = "Nikhil"
+
 const createElement = React.createElement(
   "a" ,
   {href : 'https://google.com' , target : "_blank"},
