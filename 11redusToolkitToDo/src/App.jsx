@@ -1,15 +1,16 @@
-import { useState } from 'react'
 
-import './App.css'
+import AddTodo from './components/AddTodo'
+import Todo from './components/todo'
 
 function App() {
   
 
   return (
     <>
-     
-     <h1> React redux toolkit - Nikhil</h1>
-    </>
+    <h1>Learn about redux toolkit</h1>
+    <AddTodo />
+    <Todo />
+  </>
   )
 }
 
