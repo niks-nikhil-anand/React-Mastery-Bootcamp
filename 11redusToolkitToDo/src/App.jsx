@@ -7,9 +7,13 @@ function App() {
 
   return (
     <>
+    <div className='flex justify-center flex-col text-center'>
+
+    
     <h1>Learn about redux toolkit</h1>
     <AddTodo />
     <Todo />
+    </div>
   </>
   )
 }
