@@ -4,7 +4,6 @@ Welcome to the React Bootcamp! This intensive bootcamp covers a diverse range of
 ## Topics Covered:
 1 . **Basics of React:** Comprehensive coverage of React fundamentals, including JSX, components, and the React workflow.
 
-
 2 . **CustomReact:** Developed a custom React library, delving into the intricacies of creating your own components and understanding JSX.
 
 3. **CounterApp:** Explored the significance of hooks, specifically the useState hook, by implementing a CounterApp project.
@@ -28,4 +27,5 @@ Welcome to the React Bootcamp! This intensive bootcamp covers a diverse range of
 12. **ContextAPI + Local Storage:** Constructed a Todo app using the Context API and leveraging local storage for data persistence.
 
 13 .**redusToolkit:** Designed a Todo app using the Redux Toolkit, gaining insights into state management and the Redux ecosystem.
+
 Feel free to explore each project individually for a hands-on experience with the concepts covered in this React Bootcamp!
